@@ -14,5 +14,4 @@ def main(dsn: str, prod_name: str) -> None:
 
 
 if __name__ == '__main__':
-    # main(**vars(cli_args))
-    main(dsn=config.dsn, prod_name=config.prod_name)
+    main(**vars(cli_args))  # main(dsn=config.dsn, prod_name=config.prod_name)
