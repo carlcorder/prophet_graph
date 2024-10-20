@@ -12,4 +12,4 @@
 Todo:
 - [x] Test against the `NA US` library
 - [ ] Test against the `US360` library
-- [ ] Update the validating regex to cover edge cases
+- [ ] Update the validating [regex](https://github.com/carlcorder/prophet_graph/blob/effc083e8cf34a586c0cdad27ba7dab1032e9b60/prophet/config.py#L227) to cover edge cases
