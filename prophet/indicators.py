@@ -15,6 +15,7 @@ class ProductIndicators(PrW):
 
     def get_schedule(self) -> pd.DataFrame:
         return (
+            # TODO: Check secondary input variables are properly handled
             self.indicators.query('prod_name.notnull()')
             .filter(items=['prod_name', 'ind_name', 'ind_id'], axis='columns')
             .pivot(index='ind_name', columns='prod_name', values='ind_id').notna()
